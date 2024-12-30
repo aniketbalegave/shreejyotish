@@ -135,3 +135,8 @@ hr{
 .dropdown:hover {
     background-color: transparent;
 } */
+ .vastuu-for-house{
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+ 

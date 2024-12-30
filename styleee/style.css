@@ -2213,12 +2213,14 @@ input:focus, textarea:focus, select:focus, button:focus {
 	float:left;
 	width:100%;
 	margin-bottom:30px;
+    /* display: inline-flex; */
 }
 .ast_blog_info{
+    padding-left: 34px;
     float: left;
     width: 100%;
     text-align: left;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     position: relative;
 }
 .ast_blog_info ul.ast_blog_info_text{
