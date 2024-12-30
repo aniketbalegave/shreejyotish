@@ -1,0 +1,137 @@
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -180px;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    min-width: 556px;
+    border-radius: 7px;
+    background-color: honeydew;
+    
+    transition: all 0.3s ease;
+}
+
+
+
+.dropdown li {
+    list-style: none;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    /* display: block; */
+    transition: background-color 0.3s ease;
+}
+
+.dropdown li a:hover {
+    text-decoration-thickness: 5px;
+    transform: scale(1.1);
+    color: orange;
+    
+}
+
+/* Show Dropdown on Hover */
+.menu > li:hover .dropdown {
+    display: block;
+}
+
+
+
+.head{
+    font-size: x-large;
+    /* text-decoration-thickness: 113px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+
+hr{
+    border: 1px solid black;
+    width: 78%;
+    margin: 5px;
+    
+    margin-left: 65px;
+    margin-bottom: 3px;
+}
+
+.head1{
+    margin-right: 47px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    
+}
+
+
+.dropdown1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -84px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    min-width: 273px;
+    padding: 0px;
+    border-radius: 7px;
+    background-color: honeydew;
+}
+
+.dropdown1 li {
+    list-style: none;
+}
+
+.dropdown1 li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown1 li a:hover {
+    transform: scale(1.1);
+}
+
+/* Show Dropdown on Hover */
+.menu > li:hover .dropdown1 {
+    display: block;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: stretch;  
+    
+
+}
+
+
+.maa1{
+    display: flex;
+    flex-direction: column;
+}
+
+.maiiiin{
+    display: flex;
+    /* height: 14pc; */
+
+}
+
+
+/* 
+.dropdown:hover {
+    background-color: transparent;
+} */
