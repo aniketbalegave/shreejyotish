@@ -263,8 +263,9 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_logo{
     float: left;
-    width: 100%;
-    padding: 16px 0px;
+    width: 50%;
+    /* padding: 9px 0px; */
+    margin-top: -27px;
 }
 .ast_menu {
     float: left;
