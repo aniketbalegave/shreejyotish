@@ -1833,8 +1833,10 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin-bottom: 50px;
 }
 .ast_footer_info img{
-	display:inline-block;
-	margin-bottom:15px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-top: 59px;
+    width: 12%;
 }
 .ast_footer_info p{
 	float:left;
@@ -2068,7 +2070,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .ast_gettouch ul li{
 	float:left;
-	width:100%;
+    width: 127%;
 	list-style:none;
 	margin-bottom:15px;
 }
