@@ -2309,7 +2309,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	right:0px;
 	left:0px;
 	bottom:0px;
-	background-color:rgba(0, 0, 0, 0.5);
+	/* background-color:rgba(0, 0, 0, 0.5); */
 	opacity:0;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
