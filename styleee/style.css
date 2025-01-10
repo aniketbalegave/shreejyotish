@@ -1190,7 +1190,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-	 background-image: url(../images/bg3.webp);
+	 background-image: url(../images/bg-image-about-us.jpeg);
     background-position: center center;
 	 background-repeat: no-repeat;
 }
